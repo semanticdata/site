@@ -1,10 +1,10 @@
 import { defineThemeConfig } from './types'
 
 export default defineThemeConfig({
-  site: 'https://nordlys.fjelloverflow.dev',
-  title: 'Nordlys',
-  description: 'A minimal Astro blog theme',
-  author: 'FjellOverflow',
+  site: 'https://semanticdata.github.io/site/',
+  title: 'Nordlys Site',
+  description: 'A minimal Astro blog site.',
+  author: 'Miguel Pimentel',
   navbarItems: [
     { label: 'Blog', href: '/posts' },
     { label: 'Projects', href: '/projects' },
@@ -23,7 +23,7 @@ export default defineThemeConfig({
   footerItems: [
     {
       icon: 'tabler--brand-github',
-      href: 'https://github.com/FjellOverflow/nordlys',
+      href: 'https://github.com/semanticdata/site',
       label: 'Github'
     },
     {
