@@ -1,7 +1,7 @@
 import { defineThemeConfig } from './types'
 
 export default defineThemeConfig({
-  site: 'https://semanticdata.github.io/site/',
+  site: 'https://semanticdata.github.io/', // not full domain due to workaround for GitHub Pages
   title: 'Nordlys Site',
   description: 'A minimal Astro blog site.',
   author: 'Miguel Pimentel',
