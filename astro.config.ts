@@ -9,7 +9,8 @@ import config from './src/theme.config'
 
 export default defineConfig({
   site: config.site,
-  base: '/site/', // for GitHub Pages
+  base: '/site', // for GitHub Pages
+  output: 'static',
   integrations: [tailwind(), mdx(), sitemap()],
   markdown: {
     shikiConfig: {
